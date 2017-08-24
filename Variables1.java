@@ -13,11 +13,19 @@ public class Variables1
 
     //velocidadDeLaLuz = 3.0; ERROS QUE ES FINAL
 
+    numero3++; //Operacion unaria
+    ++numero3; //Operacion unaria
     numero1 = (int) pi; //CAST - solo funciona entre numeros
 
     numero2 = (numero1 + numero3) / 2;
 
+    //numero2 = numero2+numero1; es equivalente al de abajo
+    numero2 += numero1;
+
     System.out.println(numero1);
+    System.out.println(numero2);
+    System.out.println(Math.sqrt(numero2++));
+    System.out.println(numero2);
 
   }
 }
