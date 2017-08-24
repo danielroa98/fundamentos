@@ -20,6 +20,7 @@ public class Variables1
     numero2 = (numero1 + numero3) / 2;
 
     //numero2 = numero2+numero1; es equivalente al de abajo
+    numero2 += numero3/4;
     numero2 += numero1;
 
     System.out.println(numero1);
