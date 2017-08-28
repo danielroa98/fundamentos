@@ -8,11 +8,16 @@ public class Metodo1
 {
   public static void main(String[] args)
   {
-    imprime();
-    imprime();
+    String nombre = "Daniel";
+
+    imprime(nombre);
+
+    System.out.println("Entre llamadas al metodo");
+
+    imprime("Juanito");
   }
-    public static void imprime()
+    public static void imprime(String nom)
     {
-      System.out.printf("Hola desde el metodo. %n");
+      System.out.printf("Hola %s desde el metodo. %n", nom);
     }
 }
