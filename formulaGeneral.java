@@ -1,5 +1,5 @@
 /*
-Ecuación cuadrática con mas de una clase
+Ecuación cuadrática con mas de un public static void
 Daniel Roa
 A01021960
 31 de agosto del 2017
