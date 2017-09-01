@@ -36,7 +36,7 @@ public class formulaGeneral
     inferior = 2*a;
 
     System.out.printf("El primer numero es %f, el segundo %f y el tercero es %f. %n", a, b, c);
-    System.out.printf("El valor positivo es:"+superiorpos/inferior);
-    System.out.printf("El valor negativo es:"+superiorneg/inferior);
+    System.out.printf("El valor positivo es: \n"+superiorpos/inferior);
+    System.out.printf("\nEl valor negativo es: \n"+superiorneg/inferior);
   }
 }
