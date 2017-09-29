@@ -6,7 +6,7 @@ public class Tabla
       {
         for (int j=0 ; j>=-1 && j<=11; j++)
           {
-            System.out.print("    "+i*j);
+            System.out.format("    "+i*j);
           }
         System.out.println();
     }
