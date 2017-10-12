@@ -1,3 +1,8 @@
+/*
+Daniel Roa
+A01021960
+Arreglos Bidimensionales 10*10
+*/
 import java.util.Random;
 
 public class Arreglos3
