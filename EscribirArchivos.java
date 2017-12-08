@@ -11,9 +11,10 @@ public class EscribirArchivos
     archivo = new File("ejemplo1.txt");
     archivo.createNewFile();
 
-    FileWriter escritor = new FileWriter(archivo);
+    FileWriter escritor = new FileWriter(archivo, true);
 
-    /*NO USAR ASI
+    /*
+    NO USAR ASI
     escritor.write("Ejemplo de archivo.\nSalto de linea.%nOtra Linea");
     */
     PrintWriter pw = new PrintWriter(escritor);

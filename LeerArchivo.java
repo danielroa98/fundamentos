@@ -10,8 +10,8 @@ public class LeerArchivo
     BufferedReader br;
     String arreglo[] = new String[3];
 
-    lector = new FileReader(nombreArchivo);//siempre va el nombre del archivo
-    br = new BufferedReader(lector); //lee los renglones del documento
+    lector = new FileReader(nombreArchivo);//Siempre va el nombre del archivo
+    br = new BufferedReader(lector); //Lee los renglones del documento
 
 
     while ((datosLeidos = br.readLine()) !=null)

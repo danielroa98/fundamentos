@@ -1,2 +1,3 @@
 Ejemplo de archivo con formato.
-Número 1218
+Número 1218Ejemplo de archivo con formato.
+NÃºmero 1218

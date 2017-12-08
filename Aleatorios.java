@@ -13,11 +13,11 @@ public class Aleatorios
         System.out.print(" "+numero);
       }
 
-      double numeroDouble;
+      /*double numeroDouble;
       for (int i = 1; i<=50; i++)
       {
       numeroDouble = numerosAleatorios.nextDouble()*10;
       System.out.printf("%.3f ",numeroDouble);
-      }
+    }*/
   }
 }
